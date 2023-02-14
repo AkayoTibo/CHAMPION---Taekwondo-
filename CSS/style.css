@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    z-index: 10;
+}
+
+header .container{
+    height: 120px;
+    background-color: #231f1c;
+}
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+
+.container{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.header-logo{
+    margin-left: 100px;
+}
+
+.header-logo img{
+    width: 200px;
+}
+
+.header-links ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.header-links{
+    margin-left: 450px;
+}
+
+.header-links a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #41c6cd;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 30px;
+    text-shadow: 0px 1px 50px white;
+}
+
+.header-links a:hover{
+    font-size: 28px;
+    text-shadow: 0px 1px 30px white;
+    color: white;
+    transition-duration: 0.6s;
+}
+
+.section-welcome .container{
+    height: 1100px;
+    background-image: url("../Assets/images/фон-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1100px;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.section-welcome h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.section-welcome span{
+    text-transform: uppercase;
+    color: transparent;
+    font-size: 140px;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.welcome-wrapper{
+    width: 1000px;
+    padding: 440px 0px 0px 100px;
+}
+
+.section-taekwondo{
+    margin: 200px 0;
+}
+
+.section-taekwondo img{
+    width: 400px;
+    border-radius: 50px;
+    margin-right: -70px;
+    z-index: 100;
+    border: black solid 1px;
+}
+
+.section-taekwondo .container{
+    display: flex;
+    justify-content: center;
+}
+
+.taekwondo-wrapper{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.taekwondo-img{
+    display: flex;
+    align-items: center;
+}
+
+.taekwondo-text{
+    border-radius: 50px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    background-color: #F7ECE1;
+}
+
+.text-item{
+    margin: 30px 30px 30px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-item li{
+    margin: 15px 0;
+    font-size: 18px;
+    text-indent: 25px;
+}
+
+.text-item ul{
+    list-style-image: url("../Assets/images/bro_fist_icon_158599.png");
+}
+
+.text-item h2{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.text-item h3{
+    font-size: 21px;
+}
+
+.text-item p{
+    font-size: 18px;
+    text-indent: 25px;
+}
+
+.section-teacher{
+    margin: 200px 0;
+}
+
+.section-teacher .container{
+    display: flex;
+    justify-content: center;
+}
+
+.teacher-main-wrapper{
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 150px;
+}
+
+.teacher-main-wrapper h2{
+    font-size: 60px;
+}
+
+.teacher-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.teacher-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+.teacher-item img{
+    width: 300px;
+    border-radius: 50px;
+}
+
+.section-pay{
+    margin-bottom: 200px;
+}
+
+.section-pay h2{
+    font-size: 36px;
+}
+
+.section-pay .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pay-wrapper{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.pay-wrapper p{
+    margin: 50px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.pay-text{
+    border: 5px dashed black;
+    border-radius: 50px;
+    width: 600px;
+}
+
+.pay-image img{
+    width: 400px;
+    border-radius: 50px;
+    border: solid 5px black;
+    filter: brightness(75%);
+}
+
+footer .container{
+    height: 100px;
+    background-color: #231f1c;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px 50px 0 0;
+}
+
+.footer-wrapper{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-contacts img{
+    width: 32px;
+    height: 32px;
+    margin: 0 30px;
+    filter: invert(100%);
+}
+
+.section-club-welcome .container{
+    height: 1000px;
+    background-image: url("../Assets/images/фон-2.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1000px;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.section-club-welcome h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.club-welcome-wrapper span{
+    text-transform: uppercase;
+    color: transparent;
+    font-size: 140px;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.club-welcome-wrapper{
+    padding: 360px 0px 0px 210px;
+}
+
+.section-about{
+    margin: 200px 0px;
+}
+
+.section-about .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-wrapper{
+    width: 1000px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 50px;
+}
+
+.about-image img{
+    width: 300px;
+    border-radius: 50px;
+}
+
+.section-about h2{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.about-text h3{
+    font-size: 28px;
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.principles-title{
+    display: flex;
+    justify-content: center;
+}
+
+.principles-title h2{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.principles-wrapperr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.principles-text ul{
+    list-style-type: none;
+}
+
+.principles-text li{
+    margin: 30px;
+    padding: 10px 10px;
+    border: red dashed 3px;
+    color: red;
+    background-color: rgb(254, 222, 222);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 100;
+    border-radius: 15px;
+}
+
+.section-notes{
+    margin: 200px 0px;
+}
+
+.section-notes .container{
+    display: flex;
+    justify-content: center;
+}
+
+.notes-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 600px;
+    text-align: justify;
+}
+
+.notes-wrapper h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.notes-wrapper p{
+    text-indent: 30px;
+    font-size: 20px;
+}
+
+.notes-wrapper img{
+    width: 400px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.notes-wrapper button{
+    background-color: white;
+    border: gold 1px solid;
+    border-radius: 5px;
+    color: gold;
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+
+.notes-wrapper button:hover{
+    background-color: rgb(255, 247, 199);
+    transition-duration: 0.6s;
+}
+
+.notes-wrapper button:active{
+    background-color: gold
+}
+
+
+.section-img-welcome .container{
+    height: 1200px;
+    background-image: url("../Assets/images/фон-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1200px;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.section-img-welcome h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.section-img-welcome span{
+    text-transform: uppercase;
+    color: transparent;
+    font-size: 140px;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.img-welcome-wrapper{
+    width: 1000px;
+    padding: 400px 0px 0px 320px;
+}
+
+.gallery-item{
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+.gallery-item:hover{
+    transition-duration: 0.6s;
+    filter: brightness(50%);
+}
+
+.section-gallery{
+    margin: 200px 0;
+}
+
+.section-gallery .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section-gallery h2{
+    font-size: 46px;
+    font-weight: 900;
+}
+
+.section-gallery p{
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.gallery-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}

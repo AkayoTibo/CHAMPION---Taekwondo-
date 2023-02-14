@@ -1,0 +1,1500 @@
+@media screen and (max-width: 768px){
+    header .container{
+        height: 120px;
+        background-color: #231f1c;
+    }
+    
+    .header-wrapper{
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .container{
+        width: 768px;
+        margin: 0 auto;
+    }
+    
+    .header-logo{
+        margin-left: 0px;
+    }
+    
+    .header-logo img{
+        width: 200px;
+    }
+    
+    .header-links ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    
+    .header-links{
+        margin-left: 40px;
+    }
+    
+    .header-links a{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: #41c6cd;
+        text-decoration: none;
+        font-size: 24px;
+        margin: 0 30px;
+        text-shadow: 0px 1px 50px white;
+    }
+    
+    .header-links a:hover{
+        font-size: 28px;
+        text-shadow: 0px 1px 30px white;
+        color: white;
+        transition-duration: 0.6s;
+    }
+    
+    .section-welcome .container{
+        height: 500px;
+        background-image: url("../Assets/images/фон-1.jpg");
+        background-repeat: no-repeat;
+        background-size: 768px 500px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .section-welcome h1{
+        color: white;
+        font-size: 24px;
+        font-weight: 100;
+    }
+    
+    .section-welcome span{
+        text-transform: uppercase;
+        color: transparent;
+        font-size: 70px;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+        background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    
+    .welcome-wrapper{
+        width: 700px;
+        padding: 100px 0px 0px 100px;
+    }
+    
+    .section-taekwondo{
+        margin: 200px 0;
+    }
+    
+    .section-taekwondo img{
+        width: 300px;
+        border-radius: 50px;
+        margin-right: -70px;
+        z-index: 100;
+        border: black solid 1px;
+    }
+    
+    .section-taekwondo .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .taekwondo-wrapper{
+        width: 750px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .taekwondo-img{
+        display: flex;
+        align-items: center;
+    }
+    
+    .taekwondo-text{
+        border-radius: 50px;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        background-color: #F7ECE1;
+    }
+    
+    .text-item{
+        margin: 30px 30px 30px 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .text-item li{
+        margin: 10px 0;
+        font-size: 13px;
+        text-indent: 25px;
+    }
+    
+    .text-item ul{
+        list-style-image: url("../Assets/images/bro_fist_icon_158599.png");
+    }
+    
+    .text-item h2{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .text-item h3{
+        font-size: 16px;
+    }
+    
+    .text-item p{
+        font-size: 14px;
+        text-indent: 25px;
+    }
+    
+    .section-teacher{
+        margin: 200px 0;
+    }
+    
+    .section-teacher .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .teacher-main-wrapper{
+        width: 750px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 100px;
+    }
+    
+    .teacher-main-wrapper h2{
+        font-size: 40px;
+    }
+    
+    .teacher-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .teacher-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .teacher-item img{
+        width: 300px;
+        border-radius: 50px;
+    }
+    
+    .section-pay{
+        margin-bottom: 200px;
+    }
+    
+    .section-pay h2{
+        font-size: 36px;
+    }
+    
+    .section-pay .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .pay-wrapper{
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 100px;
+    }
+    
+    .pay-wrapper p{
+        margin: 50px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
+    .pay-text{
+        border: 5px dashed black;
+        border-radius: 50px;
+        width: 600px;
+    }
+    
+    .pay-image img{
+        width: 400px;
+        border-radius: 50px;
+        border: solid 5px black;
+        filter: brightness(75%);
+    }
+    
+    footer .container{
+        height: 100px;
+        background-color: #231f1c;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px 50px 0 0;
+    }
+    
+    .footer-wrapper{
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer-contacts img{
+        width: 32px;
+        height: 32px;
+        margin: 0 30px;
+        filter: invert(100%);
+    }
+
+    .section-club-welcome .container{
+        height: 700px;
+        background-image: url("../Assets/images/фон-2.png");
+        background-repeat: no-repeat;
+        background-size: 768px 700px;
+        border-radius: 0px 0px 100px 100px;
+    }
+    
+    .section-club-welcome h1{
+        color: white;
+        font-size: 26px;
+        font-weight: 100;
+    }
+    
+    .club-welcome-wrapper span{
+        text-transform: uppercase;
+        color: transparent;
+        font-size: 100px;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+        background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    
+    .club-welcome-wrapper{
+        padding: 230px 0px 0px 130px;
+    }
+    
+    .section-about{
+        margin: 200px 0px;
+    }
+    
+    .section-about .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-wrapper{
+        width: 750px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .about-image img{
+        width: 300px;
+        border-radius: 50px;
+    }
+    
+    .section-about h2{
+        font-size: 36px;
+        font-weight: 900;
+        margin-bottom: 50px;
+    }
+    
+    .about-text h3{
+        font-size: 28px;
+    }
+    
+    .about-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+    
+    .principles-title{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .principles-title h2{
+        font-size: 36px;
+        font-weight: 900;
+    }
+    
+    .principles-wrapperr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .principles-text ul{
+        list-style-type: none;
+    }
+    
+    .principles-text li{
+        margin: 30px;
+        padding: 10px 10px;
+        border: red dashed 3px;
+        color: red;
+        background-color: rgb(254, 222, 222);
+        text-align: center;
+        font-size: 30px;
+        font-weight: 100;
+        border-radius: 15px;
+    }
+    
+    .section-notes{
+        margin: 200px 0px;
+    }
+    
+    .section-notes .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .notes-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 600px;
+        text-align: justify;
+    }
+    
+    .notes-wrapper h2{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    
+    .notes-wrapper p{
+        text-indent: 30px;
+        font-size: 20px;
+    }
+    
+    .notes-wrapper img{
+        width: 400px;
+        border-radius: 50px;
+        border: 1px solid black;
+    }
+    
+    .notes-wrapper button{
+        background-color: white;
+        border: gold 1px solid;
+        border-radius: 5px;
+        color: gold;
+        font-size: 20px;
+        font-weight: 100px;
+        font-family: 'Open Sans', sans-serif;
+        padding: 10px;
+    }
+    
+    .notes-wrapper button:hover{
+        background-color: rgb(255, 247, 199);
+        transition-duration: 0.6s;
+    }
+    
+    .notes-wrapper button:active{
+        background-color: gold
+    }
+
+    .section-img-welcome .container{
+        height: 500px;
+        background-image: url("../Assets/images/фон-3.jpg");
+        background-repeat: no-repeat;
+        background-size: 768px 500px;
+        border-radius: 0px 0px 100px 100px;
+    }
+    
+    .section-img-welcome h1{
+        color: white;
+        font-size: 26px;
+        font-weight: 100;
+    }
+    
+    .section-img-welcome span{
+        text-transform: uppercase;
+        color: transparent;
+        font-size: 100px;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+        background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    
+    .img-welcome-wrapper{
+        width: 1000px;
+        padding: 150px 0px 0px 100px;
+    }
+    
+    .gallery-item{
+        width: 500px;
+        height: 400px;
+        border-radius: 50px;
+    }
+    
+    .gallery-item:hover{
+        transition-duration: 0.6s;
+        filter: brightness(50%);
+    }
+    
+    .section-gallery{
+        margin: 200px 0;
+    }
+    
+    .section-gallery .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .section-gallery h2{
+        font-size: 46px;
+        font-weight: 900;
+    }
+    
+    .section-gallery p{
+        font-size: 28px;
+        font-weight: 100;
+    }
+    
+    .gallery-wrapper{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 576px){
+    header .container{
+        height: 190px;
+        background-color: #231f1c;
+    }
+    
+    .header-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .container{
+        width: 576px;
+        margin: 0 auto;
+    }
+    
+    .header-logo{
+        margin-left: 0px;
+    }
+    
+    .header-logo img{
+        width: 200px;
+    }
+    
+    .header-links ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    
+    .header-links{
+        margin-left: 0px;
+    }
+    
+    .header-links a{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: #41c6cd;
+        text-decoration: none;
+        font-size: 24px;
+        margin: 0 30px;
+        text-shadow: 0px 1px 50px white;
+    }
+    
+    .header-links a:hover{
+        font-size: 28px;
+        text-shadow: 0px 1px 30px white;
+        color: white;
+        transition-duration: 0.6s;
+    }
+    
+    .section-welcome .container{
+        height: 400px;
+        background-image: url("../Assets/images/фон-1.jpg");
+        background-repeat: no-repeat;
+        background-size: 576px 400px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .section-welcome h1{
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    
+    .section-welcome span{
+        text-transform: uppercase;
+        color: transparent;
+        font-size: 60px;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+        background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    
+    .welcome-wrapper{
+        width: 400px;
+        padding: 120px 0px 0px 70px;
+    }
+    
+    .section-taekwondo{
+        margin: 100px 0;
+    }
+    
+    .section-taekwondo img{
+        width: 300px;
+        border-radius: 50px;
+        margin-right: 0px;
+        z-index: 100;
+        border: black solid 1px;
+    }
+    
+    .section-taekwondo .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .taekwondo-wrapper{
+        width: 550px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .taekwondo-img{
+        display: flex;
+        align-items: center;
+    }
+    
+    .taekwondo-text{
+        border-radius: 50px;
+        height: 800px;
+        display: flex;
+        align-items: center;
+        background-color: #F7ECE1;
+    }
+    
+    .text-item{
+        margin: 30px 30px 30px 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .text-item li{
+        margin: 10px 0;
+        font-size: 13px;
+        text-indent: 25px;
+    }
+    
+    .text-item ul{
+        list-style-image: url("../Assets/images/bro_fist_icon_158599.png");
+    }
+    
+    .text-item h2{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .text-item h3{
+        font-size: 16px;
+    }
+    
+    .text-item p{
+        font-size: 14px;
+        text-indent: 25px;
+    }
+    
+    .section-teacher{
+        margin: 200px 0;
+    }
+    
+    .section-teacher .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .teacher-main-wrapper{
+        width: 550px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .teacher-main-wrapper h2{
+        font-size: 40px;
+    }
+    
+    .teacher-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .teacher-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .teacher-item img{
+        width: 300px;
+        border-radius: 50px;
+    }
+    
+    .section-pay{
+        margin-bottom: 200px;
+    }
+    
+    .section-pay h2{
+        font-size: 36px;
+    }
+    
+    .section-pay .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .pay-wrapper{
+        width: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+    .pay-wrapper p{
+        margin: 35px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    
+    .pay-text{
+        border: 5px dashed black;
+        border-radius: 50px;
+        width: 420px;
+    }
+    
+    .pay-image img{
+        width: 400px;
+        border-radius: 50px;
+        border: solid 5px black;
+        filter: brightness(75%);
+    }
+    
+    footer .container{
+        height: 100px;
+        background-color: #231f1c;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px 50px 0 0;
+    }
+    
+    .footer-wrapper{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer-contacts img{
+        width: 32px;
+        height: 32px;
+        margin: 0 5px;
+        filter: invert(100%);
+    }
+
+    .section-club-welcome .container{
+        height: 450px;
+        background-image: url("../Assets/images/фон-2.png");
+        background-repeat: no-repeat;
+        background-size: 576px 450px;
+        border-radius: 0px 0px 100px 100px;
+    }
+    
+    .section-club-welcome h1{
+        color: white;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    
+    .club-welcome-wrapper span{
+        text-transform: uppercase;
+        color: transparent;
+        font-size: 80px;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+        background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    
+    .club-welcome-wrapper{
+        padding: 150px 0px 0px 100px;
+    }
+    
+    .section-about{
+        margin: 200px 0px;
+    }
+    
+    .section-about .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-wrapper{
+        width: 550px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .about-image img{
+        width: 300px;
+        border-radius: 50px;
+    }
+    
+    .section-about h2{
+        font-size: 36px;
+        font-weight: 900;
+        margin-bottom: 50px;
+    }
+    
+    .about-text h3{
+        font-size: 28px;
+    }
+    
+    .about-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+    
+    .principles-title{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .principles-title h2{
+        font-size: 28px;
+        font-weight: 900;
+    }
+    
+    .principles-wrapperr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .principles-text ul{
+        list-style-type: none;
+    }
+    
+    .principles-text li{
+        margin: 30px;
+        padding: 10px 10px;
+        border: red dashed 3px;
+        color: red;
+        background-color: rgb(254, 222, 222);
+        text-align: center;
+        font-size: 22px;
+        font-weight: 100;
+        border-radius: 15px;
+    }
+    
+    .section-notes{
+        margin: 200px 0px;
+    }
+    
+    .section-notes .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .notes-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 550px;
+        text-align: justify;
+    }
+    
+    .notes-wrapper h2{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    
+    .notes-wrapper p{
+        text-indent: 30px;
+        font-size: 20px;
+    }
+    
+    .notes-wrapper img{
+        width: 400px;
+        border-radius: 50px;
+        border: 1px solid black;
+    }
+    
+    .notes-wrapper button{
+        background-color: white;
+        border: gold 1px solid;
+        border-radius: 5px;
+        color: gold;
+        font-size: 20px;
+        font-weight: 100px;
+        font-family: 'Open Sans', sans-serif;
+        padding: 10px;
+    }
+    
+    .notes-wrapper button:hover{
+        background-color: rgb(255, 247, 199);
+        transition-duration: 0.6s;
+    }
+    
+    .notes-wrapper button:active{
+        background-color: gold
+    }
+    .section-img-welcome .container{
+        height: 450px;
+        background-image: url("../Assets/images/фон-3.jpg");
+        background-repeat: no-repeat;
+        background-size: 576px 450px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .section-img-welcome h1{
+        color: white;
+        font-size: 22px;
+        font-weight: 100;
+    }
+    
+    .section-img-welcome span{
+        text-transform: uppercase;
+        color: transparent;
+        font-size: 70px;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+        background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    
+    .img-welcome-wrapper{
+        width: 1000px;
+        padding: 150px 0px 0px 100px;
+    }
+    
+    .gallery-item{
+        width: 500px;
+        height: 400px;
+        border-radius: 50px;
+    }
+    
+    .gallery-item:hover{
+        transition-duration: 0.6s;
+        filter: brightness(50%);
+    }
+    
+    .section-gallery{
+        margin: 200px 0;
+    }
+    
+    .section-gallery .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .section-gallery h2{
+        font-size: 36px;
+        font-weight: 900;
+    }
+    
+    .section-gallery p{
+        font-size: 24px;
+        font-weight: 100;
+    }
+    
+    .gallery-wrapper{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width: 378px){
+    header .container{
+        height: 190px;
+        background-color: #231f1c;
+    }
+    
+    .header-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .container{
+        width: 378px;
+        margin: 0 auto;
+    }
+    
+    .header-logo{
+        margin-left: 0px;
+    }
+    
+    .header-logo img{
+        width: 200px;
+    }
+    
+    .header-links ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    
+    .header-links{
+        margin-left: 0px;
+    }
+    
+    .header-links a{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: #41c6cd;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 0 22px;
+        text-shadow: 0px 1px 50px white;
+    }
+    
+    .header-links a:hover{
+        font-size: 28px;
+        text-shadow: 0px 1px 30px white;
+        color: white;
+        transition-duration: 0.6s;
+    }
+    
+    .section-welcome .container{
+        height: 250px;
+        background-image: url("../Assets/images/фон-1.jpg");
+        background-repeat: no-repeat;
+        background-size: 378px 250px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .section-welcome h1{
+        color: white;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    
+    .section-welcome span{
+        text-transform: uppercase;
+        color: transparent;
+        font-size: 40px;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+        background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    
+    .welcome-wrapper{
+        width: 350px;
+        padding: 75px 0px 0px 46px;
+    }
+    
+    .section-taekwondo{
+        margin: 100px 0;
+    }
+    
+    .section-taekwondo img{
+        width: 250px;
+        border-radius: 50px;
+        margin-right: 0px;
+        z-index: 100;
+        border: black solid 1px;
+    }
+    
+    .section-taekwondo .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .taekwondo-wrapper{
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .taekwondo-img{
+        display: flex;
+        align-items: center;
+    }
+    
+    .taekwondo-text{
+        border-radius: 50px;
+        height: 1000px;
+        display: flex;
+        align-items: center;
+        background-color: #F7ECE1;
+    }
+    
+    .text-item{
+        margin: 30px 30px 30px 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .text-item li{
+        margin: 10px 0;
+        font-size: 13px;
+        text-indent: 25px;
+    }
+    
+    .text-item ul{
+        list-style-image: url("../Assets/images/bro_fist_icon_158599.png");
+    }
+    
+    .text-item h2{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    
+    .text-item h3{
+        font-size: 16px;
+    }
+    
+    .text-item p{
+        font-size: 14px;
+        text-indent: 25px;
+    }
+    
+    .section-teacher{
+        margin: 200px 0;
+    }
+    
+    .section-teacher .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .teacher-main-wrapper{
+        width: 350px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .teacher-main-wrapper h2{
+        font-size: 34px;
+    }
+    
+    .teacher-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .teacher-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .teacher-item img{
+        width: 300px;
+        border-radius: 50px;
+    }
+    
+    .section-pay{
+        margin-bottom: 200px;
+    }
+    
+    .section-pay h2{
+        font-size: 36px;
+    }
+    
+    .section-pay .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .pay-wrapper{
+        width: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+    .pay-wrapper p{
+        margin: 30px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    
+    .pay-text{
+        border: 5px dashed black;
+        border-radius: 50px;
+        width: 350px;
+    }
+    
+    .pay-image img{
+        width: 300px;
+        border-radius: 50px;
+        border: solid 5px black;
+        filter: brightness(75%);
+    }
+    
+    footer .container{
+        height: 100px;
+        background-color: #231f1c;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px 50px 0 0;
+    }
+    
+    .footer-wrapper{
+        width: 500px;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer-contacts img{
+        width: 32px;
+        height: 32px;
+        margin: 0 5px;
+        filter: invert(100%);
+    }
+    .section-club-welcome .container{
+        height: 350px;
+        background-image: url("../Assets/images/фон-2.png");
+        background-repeat: no-repeat;
+        background-size: 378px 350px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .section-club-welcome h1{
+        color: white;
+        font-size: 16px;
+        font-weight: 100;
+    }
+    
+    .club-welcome-wrapper span{
+        text-transform: uppercase;
+        color: transparent;
+        font-size: 60px;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+        background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    
+    .club-welcome-wrapper{
+        padding: 120px 0px 0px 60px;
+    }
+    
+    .section-about{
+        margin: 100px 0px;
+    }
+    
+    .section-about .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-wrapper{
+        width: 350px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .about-image img{
+        width: 300px;
+        border-radius: 50px;
+    }
+    
+    .section-about h2{
+        font-size: 36px;
+        font-weight: 900;
+        margin-bottom: 50px;
+    }
+    
+    .about-text h3{
+        font-size: 20px;
+    }
+    
+    .about-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+    
+    .principles-title{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .principles-title h2{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .principles-wrapperr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .principles-text ul{
+        list-style-type: none;
+    }
+    
+    .principles-text li{
+        margin: 30px;
+        padding: 10px 10px;
+        border: red dashed 3px;
+        color: red;
+        background-color: rgb(254, 222, 222);
+        text-align: center;
+        font-size: 22px;
+        font-weight: 100;
+        border-radius: 15px;
+    }
+    
+    .section-notes{
+        margin: 200px 0px;
+    }
+    
+    .section-notes .container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .notes-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 350px;
+        text-align: justify;
+    }
+    
+    .notes-wrapper h2{
+        text-align: center;
+        font-size: 36px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    
+    .notes-wrapper p{
+        text-indent: 30px;
+        font-size: 16px;
+    }
+    
+    .notes-wrapper img{
+        width: 350px;
+        border-radius: 50px;
+        border: 1px solid black;
+    }
+    
+    .notes-wrapper button{
+        background-color: white;
+        border: gold 1px solid;
+        border-radius: 5px;
+        color: gold;
+        font-size: 20px;
+        font-weight: 100px;
+        font-family: 'Open Sans', sans-serif;
+        padding: 10px;
+    }
+    
+    .notes-wrapper button:hover{
+        background-color: rgb(255, 247, 199);
+        transition-duration: 0.6s;
+    }
+    
+    .notes-wrapper button:active{
+        background-color: gold
+    }
+    .section-img-welcome .container{
+        height: 350px;
+        background-image: url("../Assets/images/фон-3.jpg");
+        background-repeat: no-repeat;
+        background-size: 378px 350px;
+        border-radius: 0px 0px 50px 50px;
+    }
+    
+    .section-img-welcome h1{
+        color: white;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    
+    .section-img-welcome span{
+        text-transform: uppercase;
+        color: transparent;
+        font-size: 50px;
+        font-family: 'Times New Roman', serif;
+        letter-spacing: 5px;
+        font-weight: bold;
+        background-image: linear-gradient(to right, #462523 0, #cb9b51 22%, #f6e27a 45%, #f6f2c0 50%, #f6e27a 55%, #cb9b51 78%, #462523 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    
+    .img-welcome-wrapper{
+        width: 1000px;
+        padding: 100px 0px 0px 35px;
+    }
+    
+    .gallery-item{
+        width: 350px;
+        height: 300px;
+        border-radius: 50px;
+    }
+    
+    .gallery-item:hover{
+        transition-duration: 0.6s;
+        filter: brightness(50%);
+    }
+    
+    .section-gallery{
+        margin: 200px 0;
+    }
+    
+    .section-gallery .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .section-gallery h2{
+        font-size: 28px;
+        font-weight: 900;
+    }
+    
+    .section-gallery p{
+        font-size: 20px;
+        font-weight: 100;
+    }
+    
+    .gallery-wrapper{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
